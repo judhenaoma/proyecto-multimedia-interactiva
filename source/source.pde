@@ -13,7 +13,8 @@ int tono = (int)random(360);
 //Listado de Caracteres
 String[] chars = {":", "&", "*", "/", "$", "?", "#", "/", "(", ")"};
 
-void setup() {  
+void setup() { 
+  textSize(32);
   size(800,800,P3D); //Tamño de la ventana
   //fullScreen(P2D, SPAN);  //Coloca la pantalla completa (corre más lento)
   
