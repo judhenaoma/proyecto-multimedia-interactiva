@@ -14,8 +14,8 @@ int tono = (int)random(360);
 String[] chars = {":", "&", "*", "/", "$", "?", "#", "/", "(", ")"};
 
 void setup() {  
-   size(800,800,P3D); //Tamño de la ventana
-  //fullScreen(P3D, SPAN);  //Coloca la pantalla completa (corre más lento)
+  size(800,800,P3D); //Tamño de la ventana
+  //fullScreen(P2D, SPAN);  //Coloca la pantalla completa (corre más lento)
   
   //Cambia el modo de color de RGB a HSB, para facilitar el manejo de colores más tarde
   colorMode(HSB, 360, 100, 100);
