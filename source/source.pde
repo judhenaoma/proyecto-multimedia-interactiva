@@ -95,6 +95,7 @@ class ExpandingCircle {
         
         if (computedValue<=radius){ //si dicha distancia está dentro del radio, (j, k) pertenece al círculo
           fill(c,transparency); // Recibe el color y su transparencia
+          
           text(character, j, k); //Escribe el caracter en (j,k)
         }
       }
@@ -125,6 +126,7 @@ class letter{
   void display(){
     //textSize(15);
     fill(c,transparency);
+    textSize(27);
     text(form, posx , posy);
   }
   
